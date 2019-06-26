@@ -1,0 +1,620 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"wid",
+				"width"
+			],
+			[
+				"width",
+				"widthDif"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"sideb",
+				"sidebar-width"
+			],
+			[
+				"sec",
+				"secondary-accent-color"
+			],
+			[
+				"pa",
+				"padding\tproperty"
+			],
+			[
+				"border-rad",
+				"border-radius\tproperty"
+			],
+			[
+				"padd",
+				"padding-left\tproperty"
+			],
+			[
+				"trans",
+				"transition\tproperty"
+			],
+			[
+				"marg",
+				"margin\tproperty"
+			],
+			[
+				"night",
+				"nightMode"
+			],
+			[
+				"set",
+				"setFilter"
+			],
+			[
+				"handle",
+				"handleFilters"
+			],
+			[
+				"se",
+				"search"
+			],
+			[
+				"fil",
+				"filterStatus"
+			],
+			[
+				"sea",
+				"searchResults"
+			],
+			[
+				"filter",
+				"filtername"
+			],
+			[
+				"adv",
+				"advancedSearch"
+			],
+			[
+				"sear",
+				"searchResults"
+			],
+			[
+				"search",
+				"search-results"
+			],
+			[
+				"to",
+				"toLowerCase"
+			],
+			[
+				"in",
+				"inline-block\tdisplay"
+			],
+			[
+				"advanc",
+				"advanced-menu"
+			],
+			[
+				"inline",
+				"inline-block\tdisplay"
+			],
+			[
+				"margin",
+				"margin-left\tproperty"
+			],
+			[
+				"pay",
+				"payloadName"
+			],
+			[
+				"hex",
+				"hexToRgbA"
+			],
+			[
+				"land",
+				"landIntent"
+			],
+			[
+				"lan",
+				"landSuccess"
+			],
+			[
+				"youtube",
+				"youtubeLogo"
+			],
+			[
+				"flex",
+				"flex-basis\tproperty"
+			],
+			[
+				"rocke",
+				"rocketName"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"pal",
+				"payloadMass"
+			],
+			[
+				"lad",
+				"landSuccess"
+			],
+			[
+				"payl",
+				"payloadMass"
+			],
+			[
+				"p",
+				"placeholder\tAttr"
+			],
+			[
+				"fle",
+				"flex-start\talign-content"
+			],
+			[
+				"alig",
+				"align-content\tproperty"
+			],
+			[
+				"flx",
+				"flex-direction\tproperty"
+			],
+			[
+				"user",
+				"users"
+			],
+			[
+				"get",
+				"getSum"
+			],
+			[
+				"rot",
+				"rotateZ()\ttransform"
+			],
+			[
+				"text",
+				"text-decoration-style\tproperty"
+			],
+			[
+				"inn",
+				"innerClass"
+			],
+			[
+				"player",
+				"playerItem"
+			],
+			[
+				"temp",
+				"tempUsers"
+			],
+			[
+				"is",
+				"isPlaying"
+			],
+			[
+				"menu",
+				"menu-container"
+			],
+			[
+				"room",
+				"roomID"
+			],
+			[
+				"pr",
+				"primary-color"
+			],
+			[
+				"ac",
+				"accent-color"
+			],
+			[
+				"ine",
+				"inline-block\tdisplay"
+			],
+			[
+				"font-s",
+				"font-style\tproperty"
+			],
+			[
+				"back",
+				"background-position\tproperty"
+			],
+			[
+				"max",
+				"max-width\tproperty"
+			],
+			[
+				"obje",
+				"object-fit\tproperty"
+			],
+			[
+				"backgro",
+				"background-repeat\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/app.js",
+			"settings":
+			{
+				"buffer_size": 545,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/serviceWorker.js",
+			"settings":
+			{
+				"buffer_size": 4948,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/components/repo.js",
+			"settings":
+			{
+				"buffer_size": 656,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/index.js",
+			"settings":
+			{
+				"buffer_size": 228,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"theme",
+				"UI: Select Color Scheme"
+			],
+			[
+				"them",
+				"Arithmetic"
+			],
+			[
+				"",
+				"Arithmetic"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/haydenwoods/Documents/Development/React/portfolio-git",
+		"/Users/haydenwoods/Documents/Development/React/portfolio-git/public",
+		"/Users/haydenwoods/Documents/Development/React/portfolio-git/src",
+		"/Users/haydenwoods/Documents/Development/React/portfolio-git/src/components",
+		"/Users/haydenwoods/Documents/Development/React/portfolio-git/src/images",
+		"/Users/haydenwoods/Documents/Development/React/portfolio-git/src/styles"
+	],
+	"file_history":
+	[
+		"/Users/haydenwoods/Documents/Development/React/portfolio-git/src/app.js",
+		"/Users/haydenwoods/Documents/Development/React/portfolio-git/src/index.js",
+		"/Users/haydenwoods/Documents/Development/React/portfolio-git/src/styles/index.css",
+		"/Users/haydenwoods/Documents/Development/React/portfolio-git/public/index.html",
+		"/Users/haydenwoods/Documents/Development/React/portfolio-git/src/App.js",
+		"/Users/haydenwoods/Documents/Development/Websites/SideBar/app.js",
+		"/Users/haydenwoods/Documents/Development/Websites/SideBar/public/JS/main.js",
+		"/Users/haydenwoods/Documents/Development/Websites/SideBar/public/CSS/styles.css",
+		"/Users/haydenwoods/Documents/Development/Websites/SideBar/client/index.html",
+		"/Users/haydenwoods/Documents/Development/Websites/SideBar/JS/main.js",
+		"/Users/haydenwoods/Documents/Development/Websites/SideBar/CSS/styles.css",
+		"/Users/haydenwoods/Documents/Development/Websites/SideBar/index.html",
+		"/Users/haydenwoods/Documents/Development/Websites/BeforeAfterTest/CSS/styles.css",
+		"/Users/haydenwoods/Documents/Development/GitHub/spacex-web/src/components/night.css",
+		"/Users/haydenwoods/Documents/Development/GitHub/spacex-web/src/components/FlightList.js",
+		"/Users/haydenwoods/Documents/Development/GitHub/spacex-web/src/index.css",
+		"/Users/haydenwoods/Documents/Development/GitHub/spacex-web/src/index.js",
+		"/Users/haydenwoods/Documents/Development/GitHub/spacex-web/src/components/Main.css",
+		"/Users/haydenwoods/Documents/Development/GitHub/spacex-web/src/components/FlightPage.css",
+		"/Users/haydenwoods/Documents/Development/GitHub/spacex-web/public/index.html",
+		"/Users/haydenwoods/Documents/Development/GitHub/spacex-web/src/components/Flight.css",
+		"/Users/haydenwoods/Documents/Development/GitHub/spacex-web/src/components/Header.js",
+		"/Users/haydenwoods/Documents/Development/GitHub/spacex-web/src/components/Header.css",
+		"/Users/haydenwoods/Documents/Development/GitHub/spacex-web/src/components/FlightPage.js",
+		"/Users/haydenwoods/Documents/Development/GitHub/spacex-web/src/components/Flight.js",
+		"/Users/haydenwoods/Documents/Development/GitHub/spacex-web/src/App.js",
+		"/Users/haydenwoods/Documents/Development/GitHub/spacex-web/app.js",
+		"/Users/haydenwoods/Documents/Development/React/spacex/src/components/FlightPage.js",
+		"/Users/haydenwoods/Documents/Development/React/spacex/src/components/Main.js",
+		"/Users/haydenwoods/Documents/Development/React/spacex/public/index.html",
+		"/Users/haydenwoods/Documents/Development/React/spacex/node_modules/react-scripts/config/webpack.config.dev.js",
+		"/Users/haydenwoods/Documents/Development/React/spacex/node_modules/webpack/bin/webpack.js",
+		"/Users/haydenwoods/Documents/Development/React/spacex/src/index.js",
+		"/Users/haydenwoods/Documents/Development/React/spacex/src/components/FlightList.js",
+		"/Users/haydenwoods/Documents/Development/React/spacex/spacex.sublime-project",
+		"/Users/haydenwoods/Documents/Development/React/spacex/src/components/main.css",
+		"/Users/haydenwoods/Documents/Development/React/spacex/src/App.css",
+		"/Users/haydenwoods/Documents/Development/React/spacex/src/Main.js",
+		"/Users/haydenwoods/Documents/Development/React/spacex/src/index.css",
+		"/Users/haydenwoods/Documents/Development/React/spacex/src/components/Flight.css",
+		"/Users/haydenwoods/Documents/Development/React/spacex/src/serviceWorker.js",
+		"/Users/haydenwoods/Documents/Development/React/spacex/src/App.test.js",
+		"/Users/haydenwoods/Documents/Development/React/spacex/src/logo.svg",
+		"/Users/haydenwoods/Documents/Development/Websites/AIT-T12b/node_modules/coa/lib/cmd.js",
+		"/Users/haydenwoods/Documents/Development/Electron/Test/simple-samples/activity-monitor/app.js",
+		"/Users/haydenwoods/Documents/Development/Electron/Test/simple-samples/activity-monitor/package.json",
+		"/Users/haydenwoods/Documents/Development/Electron/Average/package.json",
+		"/Users/haydenwoods/Documents/Development/Electron/Test/simple-samples/activity-monitor/index.html",
+		"/Users/haydenwoods/Documents/Development/Electron/Test/simple-samples/activity-monitor/window.js",
+		"/Users/haydenwoods/Documents/Development/Electron/Test/simple-samples/activity-monitor/styles.css",
+		"/Users/haydenwoods/Documents/Development/NodeJS/Mafia/public/js/client.js",
+		"/Users/haydenwoods/Documents/Development/NodeJS/CTF/app.js",
+		"/Users/haydenwoods/Documents/Development/NodeJS/CTF/ctf.sublime-project",
+		"/Users/haydenwoods/Documents/Development/Python/known.txt",
+		"/Users/haydenwoods/Documents/Development/Python/knownPlaintext.py"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 102.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 545,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								155,
+								116
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/serviceWorker.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4948,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/components/repo.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 656,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								656,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 228,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "portfolio-git.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 236.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

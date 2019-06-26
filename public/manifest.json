@@ -1,0 +1,6 @@
+{
+  "short_name": "portfolio-git",
+  "name": "Hayden.sh Portfolio Website",
+  "start_url": ".",
+  "display": "standalone"
+}
