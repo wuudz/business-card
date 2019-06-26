@@ -46,6 +46,7 @@ class Content extends Component {
                         <h1>Github</h1>
                         <p>This is where I will upload any projects that I am currently working on. All these projects are viewable by the public and can be expanded upon by others.</p>
                       </div>
+                      <div className="clearfix"></div>
                     </div>
                   </div>
                 </a>
@@ -60,11 +61,14 @@ class Content extends Component {
                       </div>
                       <div className="right">
                         <h1>Other Stuff</h1>
-                        <p></p>
+                        <p>This is where I will upload any projects that I am currently working on. All these projects are viewable by the public and can be expanded upon by others.</p>
                       </div>
+                      <div className="clearfix"></div>
                     </div>
                   </div>
                 </a>
+
+                <div className="clearfix"></div>
               </div>
             </div>
           </div>

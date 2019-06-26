@@ -169,7 +169,7 @@ textarea {
 	content: "";
 	position: absolute;
 	top: 0; left: 0;
-	height: 10px;
+	height: 20px;
 	width: 100%;
 	background: var(--accent-color);
 }
@@ -177,14 +177,14 @@ textarea {
 #header #left {
 	height: 100%;
 	width: 120px;
-	display: block;
+	display: inline-block;
 	float: left;
 	padding: 0px 25px 0px 0px;
 }
 #header #right {
 	height: 100%;
 	width: calc(100% - 120px - 25px); /* Minus width of left and padding */ 
-	display: block;
+	display: inline-block;
 	float: left;
 }
 #header #right #id {
@@ -290,7 +290,6 @@ textarea {
 }
 
 #main #content .content-section .title {
-	height: 45px;
 	font-size: 45px;
 	text-shadow: 1px 1px rgba(0,0,0,0.2);
 	position: relative;
@@ -328,14 +327,14 @@ textarea {
 }
 .content-section.repo-social #left #repo-list .repo {
 	height: 60px;
-	width: calc(100% - 4px);
+	width: calc(100% - 23px); /* Padding + Margin + Border */
 	display: inline-block;
 	float: left;
-	margin: 0px 0px 20px 4px;
+	margin: 0px 0px 20px 4px; /* Size of border */
+	padding: 0px 0px 0px 15px;
 	position: relative;
 	border-left: 4px solid;
 	border-color: #ccc;
-	padding: 0px 0px 0px 15px;
 	transition: border-color 0.1s;
 }
 .content-section.repo-social #left #repo-list .repo:hover {
@@ -513,7 +512,6 @@ textarea {
 
 .content-section.pricing #options-container {
 	width: 100%;
-	padding: 10px 0px 0px 0px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
@@ -561,7 +559,6 @@ textarea {
 }
 
 .content-section.pricing #options-container .option h1 {
-	height: 32px;
 	width: 100%;
 	font-size: 32px;
 	text-shadow: 1px 1px rgba(0,0,0,0.2);
@@ -747,28 +744,23 @@ textarea {
 */
 
 #main #footer {
-	height: 100px;
+	height: 20px;
 	width: 100%;
 	margin-top: 40px;
 	background: var(--accent-color);
 	position: relative;
 }
 
-#main #footer #info-bar {
-	height: 100%;
-	width: 100%;
-}
-#main #footer #info-bar .info-item {
-	height: 100%;
-	width: 80px;
-	padding: 0px 20px 0px 20px;
-	display: inline-block;
-	float: left;
-}
-#main #footer #info-bar .info-item p {
-	font-size: 22px;
-	color: rgba(255,255,255,0.8);
-}
+
+/*
+ __  __  ____  ____ _____ _      ______ 
+|  \/  |/ __ \|  _ \_   _| |    |  ____|
+| \  / | |  | | |_) || | | |    | |__   
+| |\/| | |  | |  _ < | | | |    |  __|  
+| |  | | |__| | |_) || |_| |____| |____ 
+|_|  |_|\____/|____/_____|______|______|
+                                        
+*/
 
 @media only screen and (max-width: 1700px) { /* Restrict width (1600px) + the padding */
 	.restrict {
@@ -780,19 +772,7 @@ textarea {
 	}
 }
 
-@media only screen and (max-width: 1400px) { 
-	.content-section.repo-social #left {
-		width: calc(50% - 50px);
-		display: inline-block;
-		float: left;
-		padding: 0px 50px 0px 0px;
-	}
-	.content-section.repo-social #right {
-		width: 50%;
-		display: inline-block;
-		float: left;
-	}
-
+@media only screen and (max-width: 1500px) { 
 	.content-section.pricing #options-container {
 		width: 100%;
 		padding: 10px 0px 0px 0px;
@@ -823,21 +803,66 @@ textarea {
 	}
 }
 
-@media only screen and (max-width: 1300px) { 
+@media only screen and (max-width: 1400px) { 
 	.content-section.repo-social #left {
-		width: 100%;
+		width: calc(50% - 50px);
 		display: inline-block;
 		float: left;
 		padding: 0px 50px 0px 0px;
 	}
 	.content-section.repo-social #right {
-		width: 100%;
+		width: 50%;
 		display: inline-block;
 		float: left;
 	}
 }
 
+@media only screen and (max-width: 1200px) { 
+	.content-section.repo-social #left {
+		width: 100%;
+		display: inline-block;
+		float: left;
+		padding: 0px;
+	}
+	.content-section.repo-social #right {
+		width: 100%;
+		display: inline-block;
+		float: left;
+		padding: 0px;
+	}
+}
+
+@media only screen and (max-width: 900px) { 
+	.content-section.contact #left {
+		width: 100%;
+		padding: 0px;
+	}
+	.content-section.contact #right {
+		width: 100%;
+		padding: 0px;
+		margin-top: 50px;
+	}
+
+	.content-section.contact #left h2 {
+		font-size: 32px;
+		line-height: 40px;
+	}
+	.content-section.contact #left p {
+		font-size: 26px;
+		line-height: 34px;
+	}
+	.content-section.contact #left ul li {
+		font-size: 26px;
+		height: auto;
+	}			
+}
+
 @media only screen and (max-width: 850px) { 
+	#main #content .content-section .title {
+		font-size: 56px;
+		text-align: center;
+	}
+
 	.content-section.pricing #options-container {
 		width: 100%;
 		padding: 10px 0px 0px 0px;
@@ -854,5 +879,155 @@ textarea {
 		margin-left: 0px;
 		margin-right: 0px;
 		margin-top: 25px;
+	}
+	.content-section.pricing #options-container .option h1 {
+		font-size: 40px;
+	}
+	.content-section.pricing #options-container .option ul li {
+		font-size: 26px;
+		padding: 16px 0px 16px 0px;
+	}
+
+
+	#header {
+		height: auto;
+	}
+	#header #left {
+		width: 100%;
+		height: 250px;
+		padding: 0px;
+	}
+	#header #left #profile-pic {
+		height: 100%;
+		margin: 0 auto;
+		display: block;
+		border-radius: 100%;
+	}
+
+	#header #right {
+		width: 100%;
+		height: auto;
+	}
+	#header #right #id {
+		width: 100%;
+		height: auto;
+	}	
+	#header #right #id .top {
+		height: 80px;
+		padding: 20px 0px 0px 0px;
+	}
+	#header #right #id .top h1 {
+		height: auto;
+		width: 100%;
+		font-size: 64px;
+		text-align: center;
+		line-height: 64px;
+	}
+
+	#header #right #id .bottom {
+		height: auto;
+	}
+	#header #id #subheading {
+		height: auto;
+		width: 100%;
+	}
+	#header #id #subheading li {
+		display: inline-block;
+		width: 100%;
+		text-align: center;
+		font-size: 32px;
+		line-height: 56px;
+		padding: 0px;
+	}
+
+	.content-section.repo-social #left #repo-list .repo {
+		height: 80px;
+		border: none;
+		width: calc(100% - 19px);
+		margin: 0px 0px 20px 0px;
+		padding: 0px;
+	}
+
+	.content-section.repo-social #left #repo-list .repo .top .name {
+		font-size: 34px;
+		line-height: 46px;
+	}
+
+	.content-section.repo-social #left #repo-list .repo .top .icons .icon-container {
+		height: 100%;
+		display: inline-block;
+		float: right;
+		border-radius: 5px;
+		margin: 0px 15px 0px 0px;
+	}
+
+	.content-section.repo-social #left #repo-list .repo .top .icons .icon-container p {
+		padding-top: calc((42px - 28px) / 2);
+	}
+
+	.content-section.repo-social #left #repo-list .repo .bottom ul {
+		font-size: 20px;
+	}
+
+	.content-section.repo-social #right #social-list {
+		height: auto;
+	}
+
+	.content-section.repo-social #right #social-list .social-item::before {
+		content: none;
+	}
+
+	.content-section.repo-social #right #social-list .social-item {
+		height: auto;
+		background: none;
+		border: none;
+		margin: 0px;
+		border-radius: 0px;
+		margin-bottom: 50px;
+	}
+	.content-section.repo-social #right #social-list .social-item .container {
+		height: auto;
+		top: 0px;
+		position: relative;
+	}
+
+	.content-section.repo-social #right #social-list .social-item .container .left {
+		width: 100%;
+		height: auto;
+	}	
+	.content-section.repo-social #right #social-list .social-item .container .left .logo-container {
+		height: auto;
+	}
+	.content-section.repo-social #right #social-list .social-item .container .left .logo-container .logo {
+		height: auto;
+		top: 0px;
+		left: 0px;
+		margin-left: calc((100% - 160px) / 2);
+		display: inline-block;
+		float: left;
+		position: relative;
+	}
+	.content-section.repo-social #right #social-list .social-item .container .right {
+		width: 100%;
+		height: auto;
+	}	
+	.content-section.repo-social #right #social-list .social-item .container .right h1 {
+		padding-top: 15px;
+		padding-left: 0px;
+		padding-right: 0px;
+		padding-bottom: 15px;
+		width: 100%;
+		text-align: center;
+		font-size: 52px;
+		height: auto;
+	}
+	.content-section.repo-social #right #social-list .social-item .container .right p {
+		padding-top: 0px;
+		padding-left: 0px;
+		padding-right: 0px;
+		width: 100%;
+		text-align: center;
+		font-size: 24px;
+		line-height: 38px;
 	}
 }

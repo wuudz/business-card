@@ -38,6 +38,7 @@ class Header extends Component {
                   <li className="student">
                     <span role="img" aria-label="Student Hat">🎓</span> Student
                   </li>
+                  <div className="clearfix"></div>
                 </ul>
               </div>
             </div>
@@ -59,7 +60,8 @@ class Header extends Component {
               </div>
             </div>
           </div>
-        </div>  
+        </div>
+        <div className="clearfix"></div>  
       </div>
     );
   }
