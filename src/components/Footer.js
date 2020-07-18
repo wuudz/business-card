@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
+import axios from "axios";
 
 class Footer extends Component {
   render() {
     return(
-      <div id="footer">
-      	
+      <div className="footer">
+        <p>© Hayden Woods - {new Date().getFullYear()}</p>
       </div>
     );
   }

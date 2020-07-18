@@ -1,0 +1,121 @@
+@import "./_vars.scss";
+@import "./_fonts.scss";
+@import "./reset.scss";
+
+body {
+  background: map_get($colors, "background");
+  font-family: map_get($fonts, "default");
+}
+
+.page {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.page.index .container {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.page.index .container h1 {
+  font-weight: 600;
+  font-size: 42px;
+  color: map_get($colors, "black");
+  user-select: none;
+  white-space: nowrap;
+}
+
+.page.index .container h2 {
+  font-weight: 300;
+  font-size: 20px;
+  padding-top: 6px;
+  color: map_get($colors, "black");
+  user-select: none;
+}
+
+.page.index .container h2 span {
+  user-select: none;
+  white-space: nowrap;
+}
+.page.index .container h2 a {
+  font-weight: 500;
+}
+.page.index .container h2 span:not(:first-child),
+.page.index .container h2 a:not(:first-child) {
+  padding-left: 14px;
+  margin-left: 14px;
+  border-left: 1px solid map_get($colors, "black");
+}
+
+.page.index .container > .socials {
+  display: flex;
+  margin-top: 24px;
+}
+
+.page.index .container .socials .column {
+  padding-right: 24px;
+} 
+
+.page.index .container .socials .column h3 {
+  padding-bottom: 8px;
+}
+
+.page.index .container .socials .social {
+  height: 42px;
+  width: 42px;
+  border-radius: 2px;
+  position: relative;
+  margin: 0 auto 2px auto;
+}
+.page.index .container .socials .social:hover {
+  background: #f2f2f2;
+}
+
+.page.index .container .socials .social i {
+  width: 100%;
+  line-height: 42px;
+  font-size: 32px;
+  text-align: center;
+  color: map_get($colors, "darkGrey");
+}
+.page.index .container .socials .social:hover i {
+  color: map_get($colors, "black");
+}
+
+.page.index .container .socials .social .tooltip {
+  opacity: 0;
+  pointer-events: none;
+  user-select: none;
+  transition: opacity 0.1s;
+  position: absolute;
+  bottom: -28px; left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  background: map_get($colors, "darkGrey");
+  padding: 4px 6px;
+  border-radius: 2px;
+  z-index: 1;
+}
+.page.index .container .socials .social:hover .tooltip {
+  opacity: 1;
+  transition-delay: 0.8s;
+}
+
+
+.footer {
+  position: absolute;
+  bottom: 0; left: 50%;
+  transform: translateX(-50%);
+  padding-bottom: 18px;
+}
+
+.footer p {
+  font-size: 16px;
+  color: map_get($colors, "grey");
+  user-select: none;
+}

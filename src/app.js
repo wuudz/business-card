@@ -6,11 +6,19 @@ import Index from "./pages/Index.js"
 import "./styles/index.scss";
 
 class App extends Component {
+	renderPage = (PageComponent, pageData) => {
+		return(
+			<div className={`page ${pageData && pageData.name}`}>
+				<PageComponent pageData={pageData}/>
+			</div>
+		)
+	}
+
   render() {
     return (
       <Router className="router">
 				<Switch>
-					<Route exact path="/" component={ Index }/>
+					<Route exact path="/" component={() => { return this.renderPage(Index, { name: "index" })}}/>
 				</Switch>
 			</Router>
     );
