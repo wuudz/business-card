@@ -23,6 +23,7 @@ html {
   position: absolute;
   top: 50%; left: 50%;
   transform: translate(-50%, -50%);
+  min-height: 300px;
 }
 
 .page.index .container h1 {
@@ -139,16 +140,17 @@ html {
   white-space: nowrap;
   font-size: 14px;
   font-weight: 500;
-  color: #fff;
   padding: 4px 6px;
   border-radius: 2px;
   z-index: 1;
 }
 .page.index.light .container .socials .social .tooltip {
   background: map_get($lightColors, "secondaryAccent");
+  color: map_get($lightColors, "background");
 } 
 .page.index.dark .container .socials .social .tooltip {
   background: map_get($darkColors, "secondaryAccent");
+  color: map_get($darkColors, "background");
 }
 
 .page.index .container .socials .social:hover .tooltip {

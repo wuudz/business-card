@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import axios from "axios";
 
 import Footer from "../components/Footer.js";
 
@@ -36,7 +35,7 @@ class Index extends Component {
                   { column.items && column.items.map(social => {
                     const icon = social.icon && social.icon;
                     return(
-                      <a href={social.link && social.link} target="_blank">
+                      <a href={social.link && social.link} target="_blank" rel="noopener noreferrer">
                         <div className={`social ${social.name && social.name}`}>
                           { icon && <i className={icon.name} style={{fontSize: icon.size ? icon.size : ""}}></i> }
                           
