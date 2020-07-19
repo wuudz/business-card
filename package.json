@@ -18,6 +18,8 @@
     "start-hayden": "ln -fs ./hayden.json src/configs/active.json && react-scripts start",
     "build-declan": "ln -fs ./declan.json src/configs/active.json && react-scripts build",
     "build-hayden": "ln -fs ./hayden.json src/configs/active.json && react-scripts build",
+    "docker-all-declan": "docker build -t business-card-declan:latest -f Dockerfile.declan . && docker tag business-card-declan:latest registry.declan.sh/business-card-declan:$(git rev-parse HEAD) && docker push registry.declan.sh/business-card-declan:$(git rev-parse HEAD)",
+    "docker-all-hayden": "docker build -t business-card-hayden:latest -f Dockerfile.hayden . && docker tag business-card-hayden:latest registry.declan.sh/business-card-hayden:$(git rev-parse HEAD) && docker push registry.declan.sh/business-card-hayden:$(git rev-parse HEAD)",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
