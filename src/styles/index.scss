@@ -2,7 +2,7 @@
 @import "./_fonts.scss";
 @import "./reset.scss";
 
-body {
+html {
   background: map_get($colors, "background");
   font-family: map_get($fonts, "default");
 }
@@ -39,7 +39,7 @@ body {
   user-select: none;
   white-space: nowrap;
 }
-.page.index .container h2 a {
+.page.index .container h2 a:not([href=""]) {
   font-weight: 500;
 }
 .page.index .container h2 span:not(:first-child),
@@ -59,6 +59,9 @@ body {
 } 
 
 .page.index .container .socials .column h3 {
+  color: map_get($colors, "black"); 
+  font-size: 16px;
+  font-weight: 500;
   padding-bottom: 8px;
 }
 

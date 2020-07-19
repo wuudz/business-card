@@ -5,7 +5,7 @@ class Footer extends Component {
   render() {
     return(
       <div className="footer">
-        <p>© Hayden Woods - {new Date().getFullYear()}</p>
+        <p>{`© ${this.props.firstName} ${this.props.lastName} - ${new Date().getFullYear()}`}</p>
       </div>
     );
   }
