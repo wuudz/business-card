@@ -2,10 +2,18 @@ $fonts: (
 	"default": "'Overpass', sans-serif",
 );
 
-$colors: (
+$lightColors: (
 	"background": #fcfcfc,
-	"accent": #f25c54,
-	"black": #333,
-	"darkGrey": #444,
-	"grey": #ccc,
+	"backgroundHover": #f2f2f2,
+	"primaryAccent": #333,
+	"secondaryAccent": #444,
+	"tertiaryAccent": #ccc,
+);
+
+$darkColors: (
+	"background": #0f0f0f,
+	"backgroundHover": #151515,
+	"primaryAccent": #ededed,
+	"secondaryAccent": #dedede,
+	"tertiaryAccent": #303030,
 );

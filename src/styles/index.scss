@@ -3,7 +3,6 @@
 @import "./reset.scss";
 
 html {
-  background: map_get($colors, "background");
   font-family: map_get($fonts, "default");
 }
 
@@ -12,6 +11,13 @@ html {
   min-height: 100vh;
   width: 100%;
 }
+.page.light {
+  background: map_get($lightColors, "background");
+}
+.page.dark {
+  background: map_get($darkColors, "background");
+}
+
 
 .page.index .container {
   position: absolute;
@@ -22,17 +28,27 @@ html {
 .page.index .container h1 {
   font-weight: 600;
   font-size: 42px;
-  color: map_get($colors, "black");
   user-select: none;
   white-space: nowrap;
+}
+.page.index.light .container h1 {
+  color: map_get($lightColors, "primaryAccent");
+}
+.page.index.dark .container h1 {
+  color: map_get($darkColors, "primaryAccent");
 }
 
 .page.index .container h2 {
   font-weight: 300;
   font-size: 20px;
   padding-top: 6px;
-  color: map_get($colors, "black");
   user-select: none;
+}
+.page.index.light .container h2 {
+  color: map_get($lightColors, "secondaryAccent");
+}
+.page.index.dark .container h2 {
+  color: map_get($darkColors, "secondaryAccent");
 }
 
 .page.index .container h2 span {
@@ -46,7 +62,15 @@ html {
 .page.index .container h2 a:not(:first-child) {
   padding-left: 14px;
   margin-left: 14px;
-  border-left: 1px solid map_get($colors, "black");
+  border-left: 1px solid;
+}
+.page.index.light .container h2 span:not(:first-child),
+.page.index.light .container h2 a:not(:first-child) {
+  border-color: map_get($lightColors, "secondaryAccent")
+}
+.page.index.dark .container h2 span:not(:first-child),
+.page.index.dark .container h2 a:not(:first-child) {
+  border-color: map_get($darkColors, "secondaryAccent")
 }
 
 .page.index .container > .socials {
@@ -58,11 +82,16 @@ html {
   padding-right: 24px;
 } 
 
-.page.index .container .socials .column h3 {
-  color: map_get($colors, "black"); 
+.page.index .container .socials .column h3 { 
   font-size: 16px;
   font-weight: 500;
   padding-bottom: 8px;
+}
+.page.index.light .container .socials .column h3 {
+  color: map_get($lightColors, "primaryAccent");
+}
+.page.index.dark .container .socials .column h3 {
+  color: map_get($darkColors, "primaryAccent");
 }
 
 .page.index .container .socials .social {
@@ -72,8 +101,11 @@ html {
   position: relative;
   margin: 0 auto 2px auto;
 }
-.page.index .container .socials .social:hover {
-  background: #f2f2f2;
+.page.index.light .container .socials .social:hover {
+  background: map_get($lightColors, "backgroundHover");
+}
+.page.index.dark .container .socials .social:hover {
+  background: map_get($darkColors, "backgroundHover");
 }
 
 .page.index .container .socials .social i {
@@ -81,10 +113,19 @@ html {
   line-height: 42px;
   font-size: 32px;
   text-align: center;
-  color: map_get($colors, "darkGrey");
 }
-.page.index .container .socials .social:hover i {
-  color: map_get($colors, "black");
+.page.index.light .container .socials .social i {
+  color: map_get($lightColors, "secondaryAccent");
+}
+.page.index.dark .container .socials .social i {
+  color: map_get($darkColors, "secondaryAccent");
+}
+
+.page.index.light .container .socials .social:hover i {
+  color: map_get($lightColors, "primaryAccent");
+}
+.page.index.dark .container .socials .social:hover i {
+  color: map_get($darkColors, "primaryAccent");
 }
 
 .page.index .container .socials .social .tooltip {
@@ -99,11 +140,17 @@ html {
   font-size: 14px;
   font-weight: 500;
   color: #fff;
-  background: map_get($colors, "darkGrey");
   padding: 4px 6px;
   border-radius: 2px;
   z-index: 1;
 }
+.page.index.light .container .socials .social .tooltip {
+  background: map_get($lightColors, "secondaryAccent");
+} 
+.page.index.dark .container .socials .social .tooltip {
+  background: map_get($darkColors, "secondaryAccent");
+}
+
 .page.index .container .socials .social:hover .tooltip {
   opacity: 1;
   transition-delay: 0.8s;
@@ -119,6 +166,11 @@ html {
 
 .footer p {
   font-size: 16px;
-  color: map_get($colors, "grey");
   user-select: none;
+}
+.page.light .footer p { 
+  color: map_get($lightColors, "tertiaryAccent");
+}
+.page.dark .footer p {
+  color: map_get($darkColors, "tertiaryAccent");
 }
