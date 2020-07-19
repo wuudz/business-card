@@ -1,20 +1,16 @@
 import React, { Component } from 'react'
 import axios from "axios";
-import { Helmet } from 'react-helmet'
 
 import Footer from "../components/Footer.js";
 
-import Config from '../configs/active.json'
-
 class Index extends Component {
   render() {
-    const pageData = Config.pageData;
+    let {
+      pageData
+    } = this.props;
 
     return(
       <React.Fragment>
-        <Helmet>
-          <title>{`${pageData.firstName} ${pageData.lastName}`}</title>
-        </Helmet>
         <div className="container">
           <h1>{`${pageData.firstName} ${pageData.lastName}`}</h1>
 
