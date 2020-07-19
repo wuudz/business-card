@@ -11,6 +11,8 @@ RUN npm i
 
 COPY . /usr/app 
 
+ENV REACT_APP_SITE_TITLE="Declan Woods"
+
 RUN npm run build-declan 
 
 EXPOSE 80
