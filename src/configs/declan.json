@@ -1,78 +1,56 @@
 {
- 	"pageData": {
- 		"theme": "dark",
-	  "firstName": "Declan",
-	  "lastName": "Woods",
-	  "titles": [
-			{
-			 "text":"Full Stack Engineer"
-		 	},
-		 {
-			"text":"> hayden.sh",
-			"link":"https://hayden.sh"
-		 }
-	  ],
-	  "socials":[
-		 {
-			"name":"socials",
-			"title":"Socials",
-			"items":[
-			   {
-				  "name":"github",
-				  "label":"GitHub",
-				  "icon":{
-					 "name":"fa fa-github"
-				  },
-				  "link":"https://github.com/declanwoods"
-			   },
-			   {
-				  "name":"linkedin",
-				  "label":"LinkedIn",
-				  "icon":{
-					 "name":"fa fa-linkedin",
-					 "size":"30px"
-				  },
-				  "link":"https://www.linkedin.com/in/declan-woods-0ab052164/"
-			   }
-			]
-		 },
-		 {
-			"name":"music",
-			"title":"Music",
-			"items":[
-			   {
-				  "name":"spotify",
-				  "label":"Spotify",
-				  "icon":{
-					 "name":"fa fa-spotify"
-				  },
-				  "link":"https://open.spotify.com/user/docdecdoc"
-			   },
-			   {
-				  "name":"lastfm",
-				  "label":"Last.fm",
-				  "icon":{
-					 "name":"fa fa-lastfm"
-				  },
-				  "link":"https://www.last.fm/user/spazhead99"
-			   }
-			]
-		 },
-		 {
-			"name":"contact",
-			"title":"Contact",
-			"items":[
-			   {
-				  "name":"mail",
-				  "label":"Message me",
-				  "icon":{
-					 "name":"fa fa-envelope",
-					 "size":"26px"
-				  },
-				  "link":"mailto:declanrwoods@gmail.com"
-			   }
-			]
-		 }
-	  ]
-	}
+  "pageData": {
+    "theme": "dark",
+    "firstName": "Declan",
+    "lastName": "Woods",
+    "titles": [
+      {
+        "text":"Full Stack Engineer"
+      },
+      {
+        "text":"> hayden.sh",
+        "link":"https://hayden.sh"
+      }
+    ],
+    "socials":[
+      {
+        "name":"socials",
+        "title":"Socials",
+        "items":[
+          {
+            "name":"github",
+            "label":"GitHub",
+            "icon":{
+              "name":"fa fa-github"
+            },
+            "link":"https://github.com/declanwoods"
+          },
+          {
+            "name":"linkedin",
+            "label":"LinkedIn",
+            "icon":{
+              "name":"fa fa-linkedin",
+              "size":"30px"
+            },
+            "link":"https://www.linkedin.com/in/declan-woods-0ab052164/"
+          }
+        ]
+      },
+      {
+        "name":"contact",
+        "title":"Contact",
+        "items":[
+          {
+            "name":"mail",
+            "label":"Message me",
+            "icon":{
+              "name":"fa fa-envelope",
+              "size":"26px"
+            },
+            "link":"mailto:declanrwoods@gmail.com"
+          }
+        ]
+      }
+    ]
+  }
 }
