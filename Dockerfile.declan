@@ -14,6 +14,7 @@ COPY . /usr/app
 ENV REACT_APP_SITE_TITLE="Declan Woods"
 
 RUN npm run build-declan 
+COPY .well-known /usr/app/build
 
 EXPOSE 80
 
