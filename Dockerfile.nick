@@ -1,0 +1,20 @@
+FROM node:10-jessie
+
+WORKDIR /usr/app
+
+RUN npm i -g react-scripts
+RUN npm i -g serve
+
+COPY package.json /usr/app
+
+RUN npm i
+
+COPY . /usr/app 
+
+ENV REACT_APP_SITE_TITLE="Nick Woods"
+
+RUN npm run build-nick 
+
+EXPOSE 80
+
+CMD ["serve", "-s", "build", "-l", "80"]

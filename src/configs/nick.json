@@ -1,0 +1,51 @@
+{
+  "pageData": {
+    "theme": "light",
+    "firstName": "Nick",
+    "lastName": "Woods",
+    "titles": [
+      
+    ],
+    "socials":[
+      {
+        "name":"contact",
+        "title":"Contact",
+        "items":[
+          {
+            "name":"mail",
+            "label":"Message me",
+            "icon": {
+              "name":"fa fa-envelope",
+              "size":"26px"
+            },
+            "link":"mailto:computerbugs@aapt.net.au"
+          },
+          {
+            "name":"call",
+            "label":"Call me",
+            "icon": {
+               "name":"fa fa-phone",
+               "size":"28px"
+            },
+            "link":"tel:0414601150"
+          }
+        ]
+      },
+      {
+        "name":"socials",
+        "title":"Socials",
+        "items":[
+          {
+            "name":"linkedin",
+            "label":"LinkedIn",
+            "icon":{
+              "name":"fa fa-linkedin",
+              "size":"30px"
+            },
+            "link":"https://www.linkedin.com/in/nick-woods-0866a13/"
+          }
+        ]
+      }
+    ]
+  }
+}
